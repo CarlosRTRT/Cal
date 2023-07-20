@@ -1,0 +1,38 @@
+* {
+    padding: 0%;
+    margin: 0% ;
+}
+body {
+    display: grid;
+    margin-top: 25vh;
+    justify-content: center; 
+}
+#container {
+    width: 250px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 5px;
+    background-color: rgb(8, 7, 48);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.screen {
+    width: 250px;
+    text-align: right;
+    grid-column: repeat 1/1;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    border-radius: 5px;
+    font-size: 15px;
+}
+button {
+    width: 50px;
+    border-style: none;
+    background-color: transparent;
+    color: white;
+}
+button:hover {
+    background-color: rgb(9, 9, 54);
+}
