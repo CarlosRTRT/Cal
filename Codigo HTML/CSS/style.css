@@ -1,0 +1,220 @@
+/* TODO */
+* {
+
+    padding: 0px;
+    margin: 0px;
+    color:aliceblue
+    
+
+}
+
+/* TODO */
+
+/* HTML */
+
+html {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* HTML */
+
+/* CUERPO */
+
+body {
+   
+    background-color: rgb(0, 0, 0);
+
+}
+
+/* CUERPO */
+
+/* CONTENEDOR */
+
+.contenedor {
+
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(20, auto);
+    
+}
+
+/* CONTENEDOR */
+
+/* CABECERA */
+
+.header {
+
+    padding-top: 1rem;
+    background-color: rgb(57, 17, 65);
+    text-align: center; 
+    border-style: groove;
+    border-radius: 10px;
+    border-color: rgb(158, 39, 182) ;
+
+}   
+
+.header {
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+
+/* CABECERA */
+
+/* TITULO PRINCIPAL */
+
+#titulo2 {
+
+    transition: text-shadow 0.5s ease-out;
+    font-size: 55px;
+    color: rgb(251, 250, 252);
+    border-style: groove ;
+    border-radius: 5px;
+    border-width: 9px;
+    border-color: rgb(158, 39, 182);
+    margin: auto;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+#titulo2:hover {
+
+    text-shadow: 5px 5px 0.4rem rgb(17, 17, 19);
+
+}
+
+/* TITULO PRINCIPAL */
+
+/* MENU DE NAVEGACION */
+
+.nav {
+
+    display: inline-flex;
+    color:rgb(248, 248, 245);
+    width: 150px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color:rgb(5, 4, 14) ;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 9px;   
+
+}
+
+.menu a {
+
+    transition: text-shadow 0.5s ease;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.menu a:hover {
+
+    text-shadow: 5px 5px 0.4rem black ;
+    background-color: rgb(57, 17, 65);
+
+}
+
+.menu {
+
+    grid-column: span 4;
+    transition: box-shadow 0.5s ease-out;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: rgb(158, 39, 182);
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.menu:hover {
+
+    box-shadow: 1rem 1rem 0.4rem rgb(14, 7, 11) ;
+
+}
+
+/* MENU DE NAVEGACION */
+
+/* SECCION CENTRAL */
+
+section {
+
+    height: 100rem;
+    text-align: center;
+    background-color: rgb(31, 4, 34);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: span 15;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: rgb(158, 39, 182) ;
+    transition: bo;
+}
+
+/* SECCION CENTRAL */
+
+/* SECCION LATERAL */
+
+.conocimientos {
+
+    text-align: center;
+    background-color: rgb(15, 15, 15) ;
+    margin-bottom: 1rem ;
+    margin-top: 1rem;
+
+}
+
+.ul {
+
+    width: 240px;
+    text-align: center;
+    margin: auto;
+    margin: auto;
+    list-style-type: none;
+
+}
+
+.aside {
+
+    background-color: rgb(31, 4, 34);
+    grid-column-end: 5;
+    grid-row: span 15;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: rgb(158, 39, 182) ;
+
+}
+
+/* SECCION LATERAL */
+
+/* PIE DE PAGINA */
+
+.footer {
+
+    background-color: rgb(31, 4, 34);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 18, 20;
+    text-align: center;
+    padding: 2rem;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: rgb(158, 39, 182) ;
+
+}
+/* PIE DE PAGINA */
+
+
